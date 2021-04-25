@@ -21,7 +21,7 @@ app.get("/show", mainController().show);
 //showing data by id
 app.get("/show/:id", mainController().show_id);
 
-//find by id and update
+//find by id and delete
 app.post("/update/:id", mainController().update);
 
 //find by id and update
